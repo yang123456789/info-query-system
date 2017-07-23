@@ -1,7 +1,7 @@
-from controller.login import *
+from login import *
 
 
 handlers = [
     (r'/', IndexHander),
-    (r'/register', LoginUP),
+    (r'/register', Register),
 ]
